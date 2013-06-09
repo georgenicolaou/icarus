@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ETv2", "ETv2\ETv2.vcxproj", "{4035068F-DAD3-4B40-9D93-48152F4C9A27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E109402-26CE-4812-AE7D-31153155A8CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		DebugExe|Any CPU = DebugExe|Any CPU
+		DebugExe|Mixed Platforms = DebugExe|Mixed Platforms
+		DebugExe|Win32 = DebugExe|Win32
+		DebugExe|x64 = DebugExe|x64
+		Exe Release|Any CPU = Exe Release|Any CPU
+		Exe Release|Mixed Platforms = Exe Release|Mixed Platforms
+		Exe Release|Win32 = Exe Release|Win32
+		Exe Release|x64 = Exe Release|x64
+		NonASLR|Any CPU = NonASLR|Any CPU
+		NonASLR|Mixed Platforms = NonASLR|Mixed Platforms
+		NonASLR|Win32 = NonASLR|Win32
+		NonASLR|x64 = NonASLR|x64
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		x64|Any CPU = x64|Any CPU
+		x64|Mixed Platforms = x64|Mixed Platforms
+		x64|Win32 = x64|Win32
+		x64|x64 = x64|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Debug|Win32.Build.0 = Debug|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Debug|x64.ActiveCfg = Debug|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.DebugExe|Any CPU.ActiveCfg = DebugExe|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.DebugExe|Mixed Platforms.ActiveCfg = DebugExe|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.DebugExe|Mixed Platforms.Build.0 = DebugExe|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.DebugExe|Win32.ActiveCfg = DebugExe|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.DebugExe|Win32.Build.0 = DebugExe|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.DebugExe|x64.ActiveCfg = DebugExe|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Exe Release|Any CPU.ActiveCfg = Exe Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Exe Release|Mixed Platforms.ActiveCfg = Exe Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Exe Release|Mixed Platforms.Build.0 = Exe Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Exe Release|Win32.ActiveCfg = Exe Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Exe Release|Win32.Build.0 = Exe Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Exe Release|x64.ActiveCfg = Exe Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.NonASLR|Any CPU.ActiveCfg = NonASLR|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.NonASLR|Mixed Platforms.ActiveCfg = NonASLR|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.NonASLR|Mixed Platforms.Build.0 = NonASLR|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.NonASLR|Win32.ActiveCfg = NonASLR|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.NonASLR|Win32.Build.0 = NonASLR|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.NonASLR|x64.ActiveCfg = NonASLR|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Release|Any CPU.ActiveCfg = Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Release|Win32.ActiveCfg = Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Release|Win32.Build.0 = Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.Release|x64.ActiveCfg = Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.x64|Any CPU.ActiveCfg = Exe Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.x64|Mixed Platforms.ActiveCfg = Exe Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.x64|Mixed Platforms.Build.0 = Exe Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.x64|Win32.ActiveCfg = Exe Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.x64|Win32.Build.0 = Exe Release|Win32
+		{4035068F-DAD3-4B40-9D93-48152F4C9A27}.x64|x64.ActiveCfg = Exe Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Icarus">
+      <UniqueIdentifier>{fcdaff01-2dca-45cd-87ed-ab1c1fe5a6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Icarus\Header Files\External">
+      <UniqueIdentifier>{63315a00-68f0-404a-96fa-8bc3b71b4a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Header Files\WindowsSpecific">
+      <UniqueIdentifier>{4ebabff1-5bf2-47cc-ba87-3135849ea0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Header Files\processor">
+      <UniqueIdentifier>{e1a182d1-043d-4fc5-b8c8-b55c680ce4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Header Files\Dissassembly">
+      <UniqueIdentifier>{5df46d5b-01df-4681-a09d-4d71774d243f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Header Files\Fuzzer">
+      <UniqueIdentifier>{8c93a773-fcf0-4d0f-985b-0d1d5e3cfaf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Header Files\ProcessExecution">
+      <UniqueIdentifier>{f2d4839f-4ddf-433a-acec-3106ecad9214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Header Files\Vulnerabilities">
+      <UniqueIdentifier>{2f0422fb-217c-4356-99ba-235312d58562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Icarus\Source Files\External">
+      <UniqueIdentifier>{450a9e3c-093e-4b88-90ce-0610fa5b9b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Source Files\WindowsSpecific">
+      <UniqueIdentifier>{76d2c087-bfd0-4cb1-9a9b-3f5a038c718e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Source Files\processor">
+      <UniqueIdentifier>{02ea3a94-328b-4905-adbc-9b99e5649372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Source Files\Dissassembly">
+      <UniqueIdentifier>{1df14f9c-4896-4a08-ae17-6b144ecb0582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Source Files\Fuzzer">
+      <UniqueIdentifier>{174ed9f7-e417-4eb6-8517-8e915529e22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Source Files\ProcessExecution">
+      <UniqueIdentifier>{e059d94a-d692-40c7-b5cb-81a64f691f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Source Files\Vulnerabilities">
+      <UniqueIdentifier>{74e7c16d-4b4a-4ff9-8f8f-cf69cd3a1b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icarus\Header Files\Dissassembly\iDisasm">
+      <UniqueIdentifier>{bbe2054f-847f-4f58-9cdc-240ef94380c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pattern.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IMemory.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPage.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadStack.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IExeHandler.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageHeaderMemory.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataEncoder.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionFinder.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDebugger.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Seh.h">
+      <Filter>Icarus\Header Files\WindowsSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="PEParser.h">
+      <Filter>Icarus\Header Files\WindowsSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsDebugger.h">
+      <Filter>Icarus\Header Files\WindowsSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsMemory.h">
+      <Filter>Icarus\Header Files\WindowsSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="WinError.h">
+      <Filter>Icarus\Header Files\WindowsSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="windef.h">
+      <Filter>Icarus\Header Files\WindowsSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="WinASLR.h">
+      <Filter>Icarus\Header Files\WindowsSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="DataExecutionPrevention.h">
+      <Filter>Icarus\Header Files\WindowsSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="GSBufferSec.h">
+      <Filter>Icarus\Header Files\WindowsSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="processor\IProcessorArchitecture.h">
+      <Filter>Icarus\Header Files\processor</Filter>
+    </ClInclude>
+    <ClInclude Include="processor\X86Register.h">
+      <Filter>Icarus\Header Files\processor</Filter>
+    </ClInclude>
+    <ClInclude Include="processor\IRegister.h">
+      <Filter>Icarus\Header Files\processor</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInteraction.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexPattern.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IProtections.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Icarus\Header Files\Dissassembly</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuzzer.h">
+      <Filter>Icarus\Header Files\Fuzzer</Filter>
+    </ClInclude>
+    <ClInclude Include="FuzzerGenerator.h">
+      <Filter>Icarus\Header Files\Fuzzer</Filter>
+    </ClInclude>
+    <ClInclude Include="FuzzerGeneratorExternal.h">
+      <Filter>Icarus\Header Files\Fuzzer</Filter>
+    </ClInclude>
+    <ClInclude Include="FuzzerGeneratorIcarus.h">
+      <Filter>Icarus\Header Files\Fuzzer</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessExecutor.h">
+      <Filter>Icarus\Header Files\ProcessExecution</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsProcessExecutor.h">
+      <Filter>Icarus\Header Files\ProcessExecution</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecutionMonitor.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionSignal.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExploitabilityAnalysis.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StackAnalysis.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVulnerability.h">
+      <Filter>Icarus\Header Files\Vulnerabilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FuzzingPayload.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StackBufferOverflow.h">
+      <Filter>Icarus\Header Files\Vulnerabilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SehBufferOverflow.h">
+      <Filter>Icarus\Header Files\Vulnerabilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatString.h">
+      <Filter>Icarus\Header Files\Vulnerabilities</Filter>
+    </ClInclude>
+    <ClInclude Include="processor\IA32.h">
+      <Filter>Icarus\Header Files\processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Payload.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TracedFunction.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="icarus_include.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iDisasm\idisasm_include.h">
+      <Filter>Icarus\Header Files\Dissassembly\iDisasm</Filter>
+    </ClInclude>
+    <ClInclude Include="iDisasm\intel_defs.h">
+      <Filter>Icarus\Header Files\Dissassembly\iDisasm</Filter>
+    </ClInclude>
+    <ClInclude Include="iDisasm\types.h">
+      <Filter>Icarus\Header Files\Dissassembly\iDisasm</Filter>
+    </ClInclude>
+    <ClInclude Include="RopGadget.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGadgetFinder.h">
+      <Filter>Icarus\Header Files\Dissassembly</Filter>
+    </ClInclude>
+    <ClInclude Include="ICallback.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GadgetFinderX86.h">
+      <Filter>Icarus\Header Files\Dissassembly</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryAllocator.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Disassembler.h">
+      <Filter>Icarus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsProtections.h">
+      <Filter>Icarus\Header Files\WindowsSpecific</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pattern.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IMemory.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPage.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadStack.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IExeHandler.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageHeaderMemory.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataEncoder.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionFinder.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IDebugger.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Address.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PEParser.cpp">
+      <Filter>Icarus\Source Files\WindowsSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="Seh.cpp">
+      <Filter>Icarus\Source Files\WindowsSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsDebugger.cpp">
+      <Filter>Icarus\Source Files\WindowsSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsMemory.cpp">
+      <Filter>Icarus\Source Files\WindowsSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="WinError.cpp">
+      <Filter>Icarus\Source Files\WindowsSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="WinASLR.cpp">
+      <Filter>Icarus\Source Files\WindowsSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="DataExecutionPrevention.cpp">
+      <Filter>Icarus\Source Files\WindowsSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="GSBufferSec.cpp">
+      <Filter>Icarus\Source Files\WindowsSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="processor\IProcessorArchitecture.cpp">
+      <Filter>Icarus\Source Files\processor</Filter>
+    </ClCompile>
+    <ClCompile Include="processor\X86Register.cpp">
+      <Filter>Icarus\Source Files\processor</Filter>
+    </ClCompile>
+    <ClCompile Include="processor\IRegister.cpp">
+      <Filter>Icarus\Source Files\processor</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInteraction.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HexPattern.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IProtections.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Icarus\Source Files\Dissassembly</Filter>
+    </ClCompile>
+    <ClCompile Include="Fuzzer.cpp">
+      <Filter>Icarus\Source Files\Fuzzer</Filter>
+    </ClCompile>
+    <ClCompile Include="FuzzerGenerator.cpp">
+      <Filter>Icarus\Source Files\Fuzzer</Filter>
+    </ClCompile>
+    <ClCompile Include="FuzzerGeneratorExternal.cpp">
+      <Filter>Icarus\Source Files\Fuzzer</Filter>
+    </ClCompile>
+    <ClCompile Include="FuzzerGeneratorIcarus.cpp">
+      <Filter>Icarus\Source Files\Fuzzer</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessExecutor.cpp">
+      <Filter>Icarus\Source Files\ProcessExecution</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsProcessExecutor.cpp">
+      <Filter>Icarus\Source Files\ProcessExecution</Filter>
+    </ClCompile>
+    <ClCompile Include="ExecutionMonitor.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionSignal.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExploitabilityAnalysis.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackAnalysis.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IVulnerability.cpp">
+      <Filter>Icarus\Source Files\Vulnerabilities</Filter>
+    </ClCompile>
+    <ClCompile Include="FuzzingPayload.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackBufferOverflow.cpp">
+      <Filter>Icarus\Source Files\Vulnerabilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SehBufferOverflow.cpp">
+      <Filter>Icarus\Source Files\Vulnerabilities</Filter>
+    </ClCompile>
+    <ClCompile Include="FormatString.cpp">
+      <Filter>Icarus\Source Files\Vulnerabilities</Filter>
+    </ClCompile>
+    <ClCompile Include="processor\IA32.cpp">
+      <Filter>Icarus\Source Files\processor</Filter>
+    </ClCompile>
+    <ClCompile Include="Payload.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TracedFunction.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RopGadget.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IGadgetFinder.cpp">
+      <Filter>Icarus\Source Files\Dissassembly</Filter>
+    </ClCompile>
+    <ClCompile Include="ICallback.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryAllocator.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Disassembler.cpp">
+      <Filter>Icarus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GadgetFinderX86.cpp">
+      <Filter>Icarus\Source Files\Dissassembly</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsProtections.cpp">
+      <Filter>Icarus\Source Files\WindowsSpecific</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
